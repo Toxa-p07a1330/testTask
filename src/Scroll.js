@@ -2,7 +2,7 @@ import React from "react";
 import './Scroll.css'
 const Scroll = ()=>{
     return (
-        <div>Scroll</div>
+        <div className={"Scroll"}>Scroll</div>
     )
 }
 
