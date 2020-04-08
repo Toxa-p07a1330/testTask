@@ -23,15 +23,15 @@ let Panel = (props)=>{
             <div className={"Panel-descript"}> {descript}</div>
             <div className={"Panel-foot"}>
                 <div className={"Panel-foot-block"}>
-                    <img src={"http://localhost/img/users.png"} className={"Panel-foot-block-image"}/>
+                    <img src={"https://c.radikal.ru/c02/2004/f7/6bdf60ae44fd.png"} className={"Panel-foot-block-image"}/>
                     {visitors}
                 </div>
                 <div className={"Panel-foot-block"}>
-                    <img src={"http://localhost/img/user.jpg"} className={"Panel-foot-block-image"}/>
+                    <img src={"https://d.radikal.ru/d06/2004/33/c4d9981f2857.jpg"} className={"Panel-foot-block-image"}/>
                     {speakers}
                 </div>
                 <div className={"Panel-foot-block"}>
-                    <img src={"http://localhost/img/coin.jpg"}
+                    <img src={"https://a.radikal.ru/a20/2004/42/53fd0d5c76ef.jpg"}
                         className={"Panel-foot-block-image"}/>
                     {price}
                 </div>

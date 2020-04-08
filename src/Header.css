@@ -21,15 +21,14 @@
     height: 10%;
     vertical-align: middle;
     margin-left: 20%;
-    margin-top: 4%;
+    margin-top: 1%;
 
 }
 .Header-sort{
 
     position: absolute;
-    display: inline-block;
     width: 20%;
-    background-color: rgba(0, 0,0,0);
     height: 10%;
+    background-color: rgba(0, 0,0,0);
     margin-left: 80%;
 }
