@@ -10,7 +10,7 @@ function App() {
       <div style={{height: height}}>
         <Header />
         <Scroll />
-        <Footer/>
+
       </div>
       );
 }

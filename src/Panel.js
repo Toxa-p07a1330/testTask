@@ -5,6 +5,7 @@ let Panel = (props)=>{
     let id= props.id;
     let image= props.image;
     let date= props._date;
+    let topic = props.topic;
     let sity= props.sity;
     let descript= props.descript;
     let visitors= props.visitors;
@@ -16,6 +17,7 @@ let Panel = (props)=>{
             <div>
                 <img src={image} className={"Panel-image"} height={window.innerHeight*0.12}/>
             </div>
+            <div className={"Panel-topic"}><b> {topic}</b></div>
             <div className={"Panel-sity"}> {sity} </div>
             <hr width={"15%"} align={"center"} color={"green"} size={"5px"} />
             <div className={"Panel-descript"}> {descript}</div>
